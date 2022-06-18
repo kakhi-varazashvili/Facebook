@@ -1,0 +1,112 @@
+body {
+    background-color: #f0f2f5;
+    padding: 0 30px;
+}
+.container {
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px auto;
+}
+.left-div {
+    width: 548px;
+    padding-right: 32px;
+    height: 290px;
+}
+h1 {
+    color: #1877f2;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    letter-spacing: -4px;
+}
+.left-div img {
+    width: 301px;
+    margin-left: -30px;
+}
+.left-div p {
+    font-size: 28px;
+    padding-right: 20px;
+    line-height: 32px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+.right-div {
+    width: 396px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%),
+    0 8px 16px rgb(0 0 0 / 10%);
+}
+input {
+    width: 364px;
+    height: 58px;
+    border-radius: 5px;
+    border: 1px solid #dadde1;
+    padding: 6px 10px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    outline: blue;
+}
+input:focus { 
+    outline: none !important;
+    border-color: #1877f2;
+ }  
+form {
+    text-align: center;
+}
+.log {
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+}
+a {
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #dadde1;
+    padding: 16px;
+    margin-bottom: 22px;
+    color: #1877f2;
+}
+.new {
+    background-color:  #42b72a;
+    width: 200px;
+    color: #fff;
+    font-size: 17px;
+    justify-content: center;
+    border-radius: 6px;
+    line-height: 48px;
+    font-weight: bold;
+}
+button {
+    border: none;
+}
+.buttons {
+    width: 100%;
+    margin: 5px auto;
+}
+.main-right {
+   text-align: center;
+}
+.text {
+    margin-top: 28px;
+    font-family:  SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+span {
+    font-weight: bold;
+}
